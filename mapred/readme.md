@@ -13,5 +13,5 @@ Args: (notice that in hdfs, arg 3 and arg 4 should be absolut path)
 * the sixth arg is th hadoop streaming jar (dfs only)
 
 Format of genome reference file
-* fasta file. file name should end with the .fa
-* genome file. other file names, in this file, there is only one line with dna sequence. 
+* the file should contain only one line sequence with a,c,g,t,n characters
+* if input is fasta file. use fasta2sequence tool first in ```../tool/fasta2sequence.py``` 
