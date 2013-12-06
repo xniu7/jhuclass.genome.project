@@ -16,4 +16,4 @@ def decodeFasta(fasta):
 
 if __name__=="__main__":
     fasta = sys.stdin.read()
-    print ''.join(decodeFasta)
+    print ''.join(decodeFasta(fasta)[1::2])
