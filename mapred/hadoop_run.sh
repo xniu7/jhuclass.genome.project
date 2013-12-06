@@ -8,6 +8,7 @@ dfs_input=$dfs_dir/genome_input input=$data_dir/genome_input
 dfs_output=$dfs_dir/genome_output output=$data_dir/genome_output
 dfs_rec_file=$dfs_dir/genome_rec rec_file=$data_dir/genome_rec
 dfs_temp_file=$dfs_dir/genome_temp
+mapred_stream_jar=$6
 code_dir=$3
 
 cat $2 > $input # copy given data to input
@@ -25,7 +26,7 @@ max_name=0 total_size=1 counter=0
 until [ $max_name -eq $total_size ]; do
    # first mapred job
    hadoop dfs -rmr $dfs_temp_file
-   hadoop jar $6 -cmdenv dc=$1 -mapper $code_dir/mapper.py -reducer $code_dir/reducer.py -input $dfs_rec_file -output $dfs_temp_file -jobconf mapred.map.tasks=1 mapred.reduce.tasks=1
+   hadoop jar $mapred_stream_jar -cmdenv dc=$1 -mapper $code_dir/mapper.py -reducer $code_dir/reducer.py -input $dfs_rec_file -output $dfs_temp_file -jobconf mapred.map.tasks=1 mapred.reduce.tasks=1
    # second mapred job
    hadoop dfs -rmr $dfs_rec_file
    hadoop jar $6 -cmdenv dc=$1 -mapper $code_dir/mapper2.py -reducer $code_dir/reducer2.py -input $dfs_temp_file -output $dfs_rec_file -jobconf mapred.map.tasks=1 mapred.reduce.tasks=1
@@ -44,4 +45,3 @@ END=$(date +%s.%N) # time end
 DIFF=$(echo "$END - $START" | bc) #time span
 echo -e "dc=" $dc "\tmapred with hdfs time is:\t" $DIFF
 echo $counter
-
