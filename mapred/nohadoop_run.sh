@@ -3,12 +3,12 @@
 export "dc=$1" #environment needed by python script
 
 # path config
-data_dir="/home/hduser/data/mapred"
+data_dir=$4
 input=$data_dir/genome_input
 output=$data_dir/genome_output
 rec_file=$data_dir/genome_rec
-temp_file=$data_dir/geome_temp
-code_dir="/home/hduser/code/mapred"
+temp_file=$data_dir/genome_temp
+code_dir=$3
 
 cat $2 > $input # copy given data to input
 
