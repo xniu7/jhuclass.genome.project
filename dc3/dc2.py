@@ -129,5 +129,5 @@ K=5
 t1=time.time()
 suffixArray(input,SA,n,K)
 t2=time.time()
-print SA
+#print SA
 print t2-t1
