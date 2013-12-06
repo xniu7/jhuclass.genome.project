@@ -1,3 +1,5 @@
+Important: ```chmod +x *.py```
+
 In mapred dir, we have two run.sh:
 * ```./hadoop_run.sh 3 ~/data/sample . . /user/hduser ~/hadoop/contrib/streaming/hadoop-*streaming*.jar``` run mapreduce on hdfs
 * ```./nohadoop_run.sh 3 ~/data/sample . .``` run mapreduce like job on local file system
