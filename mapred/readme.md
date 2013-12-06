@@ -1,8 +1,8 @@
 Important: ```chmod +x *.py```
 
 In mapred dir, we have two run.sh:
-* ```./hadoop_run.sh 3 ~/data/sample /home/hduser/code/mapred /home/hduser/data/mapred /user/hduser ~/hadoop/contrib/streaming/hadoop-*streaming*.jar``` run mapreduce on hdfs
-* ```./nohadoop_run.sh 3 ~/data/sample . .``` run mapreduce like job on local file system
+* ```./hadoop_run.sh 3 ../sample/10 /home/hduser/code/mapred /home/hduser/data/mapred /user/hduser ~/hadoop/contrib/streaming/hadoop-streaming-1.2.1.jar``` run mapreduce on hdfs
+* ```./nohadoop_run.sh 3 ../sample/10 . .``` run mapreduce like job on local file system
 
 Args: (notice that in hdfs, arg 3 and arg 4 should be absolut path)
 * the first arg is the number of dc, for example, dc=3 means div is 3
