@@ -2,13 +2,11 @@
 
 #the hadoop streaming jar path
 hdstream_path="/home/hduser/hadoop/contrib/streaming/hadoop-streaming-1.2.1.jar"
-#the mapred code path of our program, same as '../mapred' but we need absolute p
-ath
+#the mapred code path of our program, same as '../mapred' but we need absolute path
 code_abs_path="/home/hduser/code/mapred"
 #the mapred sa output path, you need to create it first by yourself
 data_abs_path="/home/hduser/data/mapred"
-#the hdfs path of your hadoop file system. be careful choose the path, because i
-n our example, we will delete /user/hduser/genome* for each compuation
+#the hdfs path of your hadoop file system. be careful choose the path, because in our example, we will delete /user/hduser/genome* for each compuation
 dfs_path="/user/hduser"
 
 dc=3
