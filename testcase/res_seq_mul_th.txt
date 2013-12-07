@@ -1,13 +1,61 @@
 
 process 10
 ---------------------------------
-pdc3: sequential time with 1 thread:	0.000179052352905
-pdc3: multiproc  time with 2 thread:	0.0345129966736
-pdc3: threadpool time with 2 thread:	0.00573182106018
-pdc3: sequential time with 1 thread:	0.000187158584595
-pdc3: multiproc  time with 4 thread:	0.0539231300354
-pdc3: threadpool time with 4 thread:	0.00807404518127
-pdc3: sequential time with 1 thread:	0.000202894210815
-pdc3: multiproc  time with 8 thread:	0.0763869285583
-pdc3: threadpool time with 8 thread:	0.0114998817444
+pdc3: sequential time with 1 thread:	0.000175952911377
+pdc3: multiproc  time with 2 thread:	0.0353169441223
+pdc3: threadpool time with 2 thread:	0.00500202178955
+pdc3: sequential time with 1 thread:	0.000244140625
+pdc3: multiproc  time with 4 thread:	0.0509181022644
+pdc3: threadpool time with 4 thread:	0.00759220123291
+pdc3: sequential time with 1 thread:	0.000188112258911
+pdc3: multiproc  time with 8 thread:	0.0730090141296
+pdc3: threadpool time with 8 thread:	0.0101850032806
+---------------------------------
+process 100
+---------------------------------
+pdc3: sequential time with 1 thread:	0.00146484375
+pdc3: multiproc  time with 2 thread:	0.0742909908295
+pdc3: threadpool time with 2 thread:	0.0354459285736
+pdc3: sequential time with 1 thread:	0.00145101547241
+pdc3: multiproc  time with 4 thread:	0.114660024643
+pdc3: threadpool time with 4 thread:	0.0378530025482
+pdc3: sequential time with 1 thread:	0.00139594078064
+pdc3: multiproc  time with 8 thread:	0.180572032928
+pdc3: threadpool time with 8 thread:	0.0473442077637
+---------------------------------
+process 1000
+---------------------------------
+pdc3: sequential time with 1 thread:	0.0151448249817
+pdc3: multiproc  time with 2 thread:	0.10170507431
+pdc3: threadpool time with 2 thread:	0.262180805206
+pdc3: sequential time with 1 thread:	0.015261888504
+pdc3: multiproc  time with 4 thread:	0.152650117874
+pdc3: threadpool time with 4 thread:	0.264250993729
+pdc3: sequential time with 1 thread:	0.0153288841248
+pdc3: multiproc  time with 8 thread:	0.231314897537
+pdc3: threadpool time with 8 thread:	0.30667090416
+---------------------------------
+process 10000
+---------------------------------
+pdc3: sequential time with 1 thread:	0.233520030975
+pdc3: multiproc  time with 2 thread:	0.761107206345
+pdc3: threadpool time with 2 thread:	3.67924499512
+pdc3: sequential time with 1 thread:	0.220655918121
+pdc3: multiproc  time with 4 thread:	0.97089099884
+pdc3: threadpool time with 4 thread:	3.57066106796
+pdc3: sequential time with 1 thread:	0.216106891632
+pdc3: multiproc  time with 8 thread:	1.46504688263
+pdc3: threadpool time with 8 thread:	3.75303006172
+---------------------------------
+process 100000
+---------------------------------
+pdc3: sequential time with 1 thread:	4.30753898621
+pdc3: multiproc  time with 2 thread:	9.97171807289
+pdc3: threadpool time with 2 thread:	41.7425181866
+pdc3: sequential time with 1 thread:	4.50176215172
+pdc3: multiproc  time with 4 thread:	11.8450808525
+pdc3: threadpool time with 4 thread:	42.1504859924
+pdc3: sequential time with 1 thread:	4.56123805046
+pdc3: multiproc  time with 8 thread:	15.6245779991
+pdc3: threadpool time with 8 thread:	43.9564571381
 ---------------------------------

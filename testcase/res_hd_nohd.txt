@@ -1,13 +1,13 @@
 
-process 10
+process ../sample/10
 ---------------------------------
+recursive times: 3
+mapred with hdfs (dc=3) time is:	 173.792850436
+mapred without hdfs (dc=3) time is:	 .225056112
 recursive times: 1
-mapred with hdfs (dc=3) time is:	 63.152254264
-mapred without hdfs (dc=3) time is:	 .131225037
+mapred with hdfs (dc=9) time is:	 63.540205207
+mapred without hdfs (dc=9) time is:	 .142851230
 recursive times: 1
-mapred with hdfs (dc=9) time is:	 62.428839887
-mapred without hdfs (dc=9) time is:	 .137976233
-recursive times: 1
-mapred with hdfs (dc=27) time is:	 62.181825926
-mapred without hdfs (dc=27) time is:	 .139465500
+mapred with hdfs (dc=27) time is:	 56.655166660
+mapred without hdfs (dc=27) time is:	 .138241131
 ---------------------------------

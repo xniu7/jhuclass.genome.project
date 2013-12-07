@@ -1,8 +1,4 @@
 #!/bin/bash
-hdstream_path="/home/hduser/hadoop/contrib/streaming/hadoop-streaming-1.2.1.jar"
-code_abs_path="/home/hduser/code/mapred"
-data_abs_path="/home/hduser/data/mapred"
-dfs_path="/user/hduser"
 thread_num=2
 temp_file=./res_seq_mul_th.txt
 large_sample=100000
