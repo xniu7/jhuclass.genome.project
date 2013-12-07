@@ -1,0 +1,91 @@
+
+-------------------------------------------------
+sequential time:	1.54494595528
+multiprocess time:	1.09154486656
+threading time: 	2.17811608315
+thread num=9, sequence length=1000000 exponent=8
+-------------------------------------------------
+sequential time:	1.35988998413
+multiprocess time:	0.932729005814
+threading time: 	2.21361708641
+thread num=9, sequence length=1000000 exponent=4
+-------------------------------------------------
+sequential time:	1.1246778965
+multiprocess time:	1.34868001938
+threading time: 	2.11327195168
+thread num=9, sequence length=1000000 exponent=2
+-------------------------------------------------
+sequential time:	0.014004945755
+multiprocess time:	0.0540111064911
+threading time: 	0.0188171863556
+thread num=9, sequence length=10000 exponent=8
+-------------------------------------------------
+sequential time:	0.0130741596222
+multiprocess time:	0.0584180355072
+threading time: 	0.0207560062408
+thread num=9, sequence length=10000 exponent=4
+-------------------------------------------------
+sequential time:	0.0113010406494
+multiprocess time:	0.0519459247589
+threading time: 	0.0128209590912
+thread num=9, sequence length=10000 exponent=2
+-------------------------------------------------
+sequential time:	0.000343799591064
+multiprocess time:	0.0453290939331
+threading time: 	0.00240993499756
+thread num=9, sequence length=100 exponent=8
+-------------------------------------------------
+sequential time:	0.000226020812988
+multiprocess time:	0.0439820289612
+threading time: 	0.00235605239868
+thread num=9, sequence length=100 exponent=4
+-------------------------------------------------
+sequential time:	0.000155925750732
+multiprocess time:	0.0432889461517
+threading time: 	0.00260090827942
+thread num=9, sequence length=100 exponent=2
+-------------------------------------------------
+sequential time:	1.54295516014
+multiprocess time:	1.09675002098
+threading time: 	2.18364286423
+thread num=3, sequence length=1000000 exponent=8
+-------------------------------------------------
+sequential time:	1.4216811657
+multiprocess time:	0.961231231689
+threading time: 	2.06647181511
+thread num=3, sequence length=1000000 exponent=4
+-------------------------------------------------
+sequential time:	1.1772608757
+multiprocess time:	1.06113910675
+threading time: 	1.65263986588
+thread num=3, sequence length=1000000 exponent=2
+-------------------------------------------------
+sequential time:	0.0144259929657
+multiprocess time:	0.0395920276642
+threading time: 	0.0163049697876
+thread num=3, sequence length=10000 exponent=8
+-------------------------------------------------
+sequential time:	0.0133731365204
+multiprocess time:	0.0425159931183
+threading time: 	0.0141100883484
+thread num=3, sequence length=10000 exponent=4
+-------------------------------------------------
+sequential time:	0.0115911960602
+multiprocess time:	0.0367558002472
+threading time: 	0.0132520198822
+thread num=3, sequence length=10000 exponent=2
+-------------------------------------------------
+sequential time:	0.000300884246826
+multiprocess time:	0.0305020809174
+threading time: 	0.00112700462341
+thread num=3, sequence length=100 exponent=8
+-------------------------------------------------
+sequential time:	0.000292062759399
+multiprocess time:	0.0306088924408
+threading time: 	0.00120496749878
+thread num=3, sequence length=100 exponent=4
+-------------------------------------------------
+sequential time:	0.000168800354004
+multiprocess time:	0.0273320674896
+threading time: 	0.00102400779724
+thread num=3, sequence length=100 exponent=2

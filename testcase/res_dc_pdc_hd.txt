@@ -1,0 +1,8 @@
+
+process 10
+---------------------------------
+recursive times: 1
+mapred with hdfs (dc=3) time is:	 59.527813981
+dc3 time is: 				8.10623168945e-05
+pdc3: multiproc  time with 10 thread:	0.0837268829346
+---------------------------------
