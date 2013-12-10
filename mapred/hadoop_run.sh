@@ -13,7 +13,7 @@ code_dir=$3
 
 cat $2 > $input # copy given data to input
 
-./preproc.py <  $input  >  $rec_file # preprocessing data
+$code_dir/preproc.py <  $input  >  $rec_file # preprocessing data
 
 hadoop dfs -rmr $dfs_dir/* # delete outdated files in dfs
 hadoop dfs -put $rec_file $dfs_rec_file # copy data to dfs
